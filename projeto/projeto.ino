@@ -1,4 +1,3 @@
-#include <Stepper.h>
 #include <DNSServer.h>
 #include <WiFi.h>
 #include <WiFiClientSecure.h>
