@@ -21,11 +21,11 @@ double temperatura = 0;
 #define FLASH_LED_PIN 4              //pin do flash da camera
  
 // INICIALIZAÇÃO DA REDE WI-FI
-char ssid[] = "brisa-179251"; // NOME DA REDE WI-FI
-char password[] = "z7v7rnv7"; // SENHA DA REDE WI-FI
+char ssid[] = "***********"; // NOME DA REDE WI-FI
+char password[] = "*********"; // SENHA DA REDE WI-FI
 
 // INICIALIZAÇÃO DO TELEGRAM BOT
-#define BOTtoken "1482642950:AAEmfjrAg_u2sT5p-Nk1dbSHNMjEIXYp1Yc"  // BOT TOKEN (FEITO NO Botfather)
+#define BOTtoken "**********************************************"  // BOT TOKEN (FEITO NO Botfather)
 
 WiFiClientSecure client;
 UniversalTelegramBot bot(BOTtoken, client);
